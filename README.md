@@ -101,7 +101,8 @@ Total Hardware Cost - ₹23,000
 
 ## 7. Feasibility, Scalability & Future Scope
 
-* **Cost-Efficiency:** Traditional industrial bioprocess controllers cost $3,000 - $10,000. BioSense-Edge offers equivalent core monitoring and edge actuation capability for under $260.
+* **Cost-Efficiency:**  Traditional industrial bioprocess controllers imported into India cost between $3,000 to $10,000 (approx. ₹2.5 Lakhs to ₹8.3 Lakhs INR) due to import duties and proprietary licensing. BioSense-Edge delivers equivalent multi-channel monitoring, closed-loop PID actuation, and dual-processor fail-safe control for under $280 / ₹23,000 INR—reducing deployment capital expenditure by over 90%.
+  
 * **Scalability:** Uses a lightweight pub/sub architecture (MQTT). A single broker can manage hundreds of bioreactor nodes simultaneously without bandwidth bottlenecking.
 * **Reliability:** Built with strict isolation barrier design to prevent cross-channel liquid interference, coupled with dual-network redundancy (Wi-Fi + LoRa) and local SD fail-safe recording.
 * **Future Scope:** Integration of Edge-AI models (TensorFlow Lite for Microcontrollers) to predict cell growth curves (logistic growth modeling) and dynamically adjust nutrient feed rates automatically.
