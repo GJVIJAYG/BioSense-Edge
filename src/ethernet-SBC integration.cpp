@@ -67,9 +67,7 @@ int Ethernet_SBC_StreamTelemetry(float temp, float ph, float do_val, float od, u
     return sent_bytes;
 }
 
-/**
-  * @brief Receives Edge-AI Predictive Inference Results from SBC
-  *        (e.g., predicted cell death probability or required nutrient feed rate)
+/*  custon application processor code yet to be developeed 
   */
 int Ethernet_SBC_ReceiveInference(float *predicted_growth_rate, float *feed_rate_ml_min) {
     if (sbc_socket_fd < 0) return -1;
